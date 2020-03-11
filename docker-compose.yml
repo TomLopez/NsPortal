@@ -1,0 +1,10 @@
+version: '3'
+
+back:
+    image: test
+    working_dir: /code
+    command: pserve development.ini --reload
+    ports:
+      - "6544:6544"
+    volumes:
+      - .:/code

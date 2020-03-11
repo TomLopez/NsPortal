@@ -23,7 +23,8 @@ requires = [
     'sqlalchemy',
     'pyramid_jwt',
     'pyramid_jwtauth',
-    'zope.interface==4.6'
+    'zope.interface==4.6',
+    'parse'
     ]
 
 setup(name='ns_portal',
